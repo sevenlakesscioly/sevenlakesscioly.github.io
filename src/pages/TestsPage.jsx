@@ -122,6 +122,12 @@ export default function TestsPage(props) {
                   link
                 </Link>
               )}
+              ,{" "}
+              {e.key && (
+                <Link href={e.key} className="font-bold">
+                  key
+                </Link>
+              )}
             </h3>
             {e.notes && (
               <div className="bg-white/30 p-2 rounded-md text-white hidden group-hover:block">
