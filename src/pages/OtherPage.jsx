@@ -28,6 +28,32 @@ export default function OtherPage(props) {
             web.mit.edu/6.055/book/book.pdf
           </Link>
         </li>
+        <li>
+          Code tools/resources:{" "}
+          <Link href="https://toebes.com/codebusters/">
+            toebes.com/codebusters
+          </Link>
+        </li>
+        <li>
+          Code taker:{" "}
+          <Link href="https://codetaker.web.app/">codetaker.web.app</Link>
+        </li>
+        <li>
+          Code builder:{" "}
+          <Link href="https://discord.gg/rvB4aRYhDG">Discord</Link>
+        </li>
+        <li>
+          Code cryptograms:{" "}
+          <Link href="https://cryptograms.puzzlebaron.com/">
+            cryptograms.puzzlebaron.com
+          </Link>
+        </li>
+        <li>
+          Code cryptoduel:{" "}
+          <Link href="https://r2dev2.github.io/cryptoduel/">
+            r2dev2.github.io/cryptoduel
+          </Link>
+        </li>
       </ul>
     </div>
   );
