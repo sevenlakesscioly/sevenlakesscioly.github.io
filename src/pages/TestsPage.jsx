@@ -16,18 +16,34 @@ export default function TestsPage(props) {
   let [filteredResultsList, setFilteredResoultsList] = useState([]);
 
   useEffect(() => {
-    setFilteredEventsList([
-      ...new Set(
-        resources.map((e) => e.event).filter((e) => e.includes(filterEvent))
-      ),
-    ]);
-  }, [filterEvent]);
+    let selectedEventsSet = new Set(selectedEvents);
+    let sorted = resources
+      .sort(
+        (a, b) =>
+          a.event.localeCompare(b.event) -
+          1000 *
+            (selectedEventsSet.has(a.event.toUpperCase()) -
+              selectedEventsSet.has(b.event.toUpperCase()))
+      )
+      .reduce((accum, { year: y, event: e }) => {
+        let value = e.toUpperCase();
+        if (
+          (selectedEventsSet.has(value) || y.includes(filterYear)) &&
+          (accum.length === 0 ||
+            e.toUpperCase() !== accum[accum.length - 1].toUpperCase())
+        )
+          accum.push(e);
+        return accum;
+      }, []);
+    setFilteredEventsList(sorted);
+  }, [filterEvent, filterYear, selectedEvents]);
 
   useEffect(() => {
     setFilteredResoultsList(
       resources.filter(
         (e) =>
-          (selectedEvents.length === 0 || selectedEvents.includes(e.event)) &&
+          (selectedEvents.length === 0 ||
+            selectedEvents.includes(e.event.toUpperCase())) &&
           e.tournament.includes(filterTourney) &&
           e.year.includes(filterYear) &&
           (e.type === "scoresheet") === scoresheet
@@ -56,18 +72,19 @@ export default function TestsPage(props) {
                   <button
                     className="rounded-[5px] border-[1px] m-1 p-1 border-white/25"
                     style={{
-                      backgroundColor: selectedEvents.includes(e)
+                      backgroundColor: selectedEvents.includes(e.toUpperCase())
                         ? "rgba(200,200,200,0.3)"
                         : "rgba(0,0,0,0)",
                     }}
                     value={e}
                     onClick={(e) => {
-                      let index = selectedEvents.indexOf(e.target.value);
+                      let value = e.target.value.toUpperCase();
+                      let index = selectedEvents.indexOf(value);
                       if (index < 0)
-                        setSelectedEvents([...selectedEvents, e.target.value]);
+                        setSelectedEvents([...selectedEvents, value]);
                       else
                         setSelectedEvents(
-                          selectedEvents.filter((c) => c !== e.target.value)
+                          selectedEvents.filter((c) => c !== value)
                         );
                     }}
                   >

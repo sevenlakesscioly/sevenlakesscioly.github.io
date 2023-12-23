@@ -741,7 +741,7 @@ export const resources = [
   },
   {
     type: "test",
-    event: "Write it Do it",
+    event: "Write It Do It",
     year: "2023-2024",
     tournament: "Mason Invite",
     links: [
