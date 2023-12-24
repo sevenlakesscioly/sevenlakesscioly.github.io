@@ -631,15 +631,7 @@ export const resources = [
   },
   {
     type: "test",
-    event: "Detector Building",
-    year: "2023-2024",
-    tournament: "Mason Invite",
-    link: "https://drive.google.com/file/d/1y7UHKIfRh1yjuF8KRht1MdEGzkfbKQhs/view",
-    key: "https://drive.google.com/file/d/1wQLz8InbHEGWBfQaxO4ApZw_X-cYfWqn/view",
-  },
-  {
-    type: "test",
-    event: "Disease Detective",
+    event: "Disease Detectives",
     year: "2023-2024",
     tournament: "Mason Invite",
     link: "https://drive.google.com/file/d/1c7z-o1qzsGtsC5aTW_mnG-bZH_XD3FH5/view",
@@ -695,6 +687,7 @@ export const resources = [
     links: [
       "https://drive.google.com/file/d/1h0I0Ge_tPwLhZVsB9bQJjPP55c4EJoBl/view?usp=share_link",
     ],
+    notes: "answer sheet below",
   },
   {
     type: "test",
@@ -706,6 +699,7 @@ export const resources = [
     links: [
       "https://drive.google.com/file/d/1PHOu6tYBvGVQMjvsPvXpfLKeuKEoZXau/view",
     ],
+    notes: "answer sheet below",
   },
   {
     type: "test",
@@ -751,6 +745,328 @@ export const resources = [
       "https://drive.google.com/file/d/1mkrkz5RwzJqwpgawleo0dulZRuOZ4in0/view",
       "https://drive.google.com/file/d/1mrAnUIZBoLcqigdi2UfJrDDK7KbbQJRJ/view",
     ],
+  },
+  {
+    type: "test",
+    event: "Write It Do It",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://drive.google.com/file/d/1RDNc6bhEBTWZiD_GxxU5iK47lHgAwbCw/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1NYNca2SjFqQoMyXoWxQGTUrRDlz76vaJ/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Ornithology",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://docs.google.com/document/d/1SmH2B6Q_8Ix3TRuXs45xRuSUFkSsTceEFKk8OFm6yow/edit?usp=drive_link",
+    key: "https://docs.google.com/document/d/17MILxWnvwjnqZ2eZzuVOBZ9bg972buIWeFEEtLZCaRc/edit?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Lean Mean Meme Machine",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://drive.google.com/file/d/1M2RvuXo8Ijw0Z-EX2suFpjtGR0ODciAE/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1fuyH9lJj7tjTzqUleV2XhhVKIT_nz58l/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Fossils",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://drive.google.com/file/d/13iKtJ3_jmAkkUyptRXK0RO_28XYW_uIx/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1xU7wKqtOazXd41Gzfm_15ldOrIWeytax/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Fermi Questions",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://drive.google.com/file/d/1kNlQ58-K6g4LgCrWbafmiDcrULqrXASc/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1D3yb9xxyLr5nBiLugXu_fgQqsZx-iXAw/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Dynamic Planet",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://drive.google.com/file/d/1pdeaoN3y-BRjQtCaiadWsM2xhdCjXTuZ/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1tVWoHL85rRywy8oXgQjj51H_gEnXgKOk/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Codebusters",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://drive.google.com/file/d/1KUokVWVOKlhQjRXigrT6tEq52nXGxS4C/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1CwB-Q3x7CeQ7NqFmiPTEeQldm5crdCTe/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Anatomy and Physiology",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://docs.google.com/document/d/1FioiIX6LtYmKK-yU6030dXpJnQlmaGtVuK2hg2uNMLY/edit?usp=drive_link",
+    key: "https://docs.google.com/document/d/1Y1Qk7i2BCOWuRqBdHz9TQfWJF5i9GR-OhHqaHuo4fN8/edit?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Wind Power",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://docs.google.com/document/d/1_8AgqOuP-6kx2CPAz8K9-u7QAq1HUzfqrYKpWjcfCTE/edit?usp=drive_link",
+    key: "https://docs.google.com/document/d/1h-sb05OjSzp_eaWBE11guREn6y4DSloAjbuhK4kK3c0/edit?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Optics",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://drive.google.com/file/d/1nAWxzt3Aw52vfu5BJgXuA0hjA4HuPcsp/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1ZSvhhcgTLWCvNoNjyLLDyRspsfGNT6hG/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Geologic Mapping",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://docs.google.com/document/d/1edwW7A2Q1qbh2Af7UD_10_z9XJi7iDuzEq0EvvfRFm4/edit?usp=drive_link",
+    key: "https://docs.google.com/document/d/1ZS9_eh_ExnukAfqY02LciL3Gj9fT3QEuVasyQwWWntY/edit?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Forestry",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://docs.google.com/document/d/1VLrIthaCi-ig_wp0bBxRKvv8pId0QgeinAbiIsSKwgA/edit?usp=drive_link",
+    key: "https://docs.google.com/document/d/13CKTgbat0i_MYKRD43kb4U8vdr2ktKwJly7eqnnr0jQ/edit?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Experimental Design",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://docs.google.com/document/d/1lgrWCwfDcuL-Wn0e8EVCpBTkLsYRAedspwQ5RK1Nb9Y/edit?usp=drive_link",
+    notes: "no key",
+  },
+
+  {
+    type: "test",
+    event: "Disease Detectives",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://drive.google.com/file/d/1nkSA2Mr4VFntEzsBd69-OGNiK14WlTf3/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1inxj259wL0PO2r3nLdzwDepgy-IaY7mu/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Chemistry Lab",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://docs.google.com/document/d/1Yk4isC59YZZi6t0DTU_OVShp6wNrsQmXojpRtFM4N3U/edit?usp=drive_link",
+    key: "https://docs.google.com/document/d/1FfeEMZWuidDf2CmVI-7RXzHBnoERsARsxsuvW_y1fyg/edit?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Anagrams",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://docs.google.com/document/d/1euSr6Hf8SwLZeb725ZFEmFx3zRq7wCA3oDU6eKaYgOI/edit?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "We've Got Your Number",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://docs.google.com/document/d/1cTyhAZ8BHWWEEocJmDn_oX7UcZnjiTObLEuQOmTHOYI/edit?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Microbe Mission",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://docs.google.com/document/d/1_RALHyXRpE6jP36w08kWWyN4xfY4_-0776C2RFEv3es/edit?usp=drive_link",
+    key: "https://docs.google.com/document/d/18pa9eyhyMAfI6XoANRSnRbxFtihjtitj1aXUfumff5c/edit?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Geoguessr",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://docs.google.com/document/d/1L_Jq_oPWpvU7ERiEw1yrAX0XT9tFzIC3Wx2BoKOjMxY/edit?usp=drive_link",
+    key: "https://docs.google.com/document/d/1SPOUpz4i7wsfxCkTiv2mXES5WoZ-mlSLmIEj0_Tbu3Y/edit?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Forensics",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://drive.google.com/file/d/1vZmoUOeCaXyW818jnUHUZstmucU8oAYP/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1IRKsYQ5b14Fivg4jxmriBNaKsXwifl23/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Ecology",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://docs.google.com/document/d/1yCC5yj-Sh7hdn7H8pF691o2EvukAnv1vYo6Teqbf0DU/edit?usp=drive_link",
+    key: "https://docs.google.com/document/d/13eC4KqihztYVaX8UsCyzO5YbhgRaTcno3qNJ0mFJ7K0/edit?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Detector Building",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://drive.google.com/file/d/176DxPYAfK5YhB3SXstO1i_gFmRn6Lmk5/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1esdGQmbKwT6TllKsa2pcp0FdteVfvJ5X/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Astronomy",
+    year: "2023-2024",
+    tournament: "Rickards",
+    link: "https://drive.google.com/file/d/1s6kPexO4Eni3qlXEVENNrLgMfTQZNwWS/view?usp=drive_link",
+    links: [
+      "https://drive.google.com/file/d/1yqxPMVk5LXhG3GWTDsUGlA4iEN5ERWAE/view?usp=drive_link",
+      "https://drive.google.com/file/d/1ossKFpR-_jlbvXAJj90OQvBUW_AMbZqN/view?usp=drive_link",
+    ],
+    key: "https://drive.google.com/file/d/1h2uFXuLEYwp2k0o4JgfkYRYMEIS30QM2/view?usp=drive_link",
+    notes: "Image Sheet and Calculation and JS9 solution in additional links",
+  },
+
+  {
+    type: "test",
+    event: "Wind Power",
+    year: "2023-2024",
+    tournament: "Mason Tryouts",
+    link: "https://drive.google.com/file/d/1bz9hk-xTm9tAVw5EleZu5WTOJW1P0wro/view?usp=drive_link",
+
+    key: "https://drive.google.com/file/d/1ys_OOOWvu22Q891GN3iaAVn6rmiobJZl/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Fossils",
+    year: "2023-2024",
+    tournament: "Mason Tryouts",
+    link: "https://drive.google.com/file/d/1XrKpusxx5tF3GHk-uOTWFt0DTw7h32hu/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1J7R2fXSDlDEUTT5vAxuL6Q-G088XU54x/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Dynamic Planet",
+    year: "2023-2024",
+    tournament: "Mason Tryouts",
+    link: "https://drive.google.com/file/d/1laiWuDCibsXkx1rZdS5rw2YqEL-RQx1Y/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1M35oEgx441eRQE_P22azkPcJjOUXFaGT/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Chemistry Lab",
+    year: "2023-2024",
+    tournament: "Mason Tryouts",
+    link: "https://drive.google.com/file/d/1di6siILw2r-nifIv00uBJKmNdqRQ0RRw/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1s1rODvY1LVUxUF6ForgVZTDv4yNC7ZEh/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Microbe Mission",
+    year: "2023-2024",
+    tournament: "Mason Tryouts",
+    link: "https://drive.google.com/file/d/1M4MLG_RgDypQQQBGpl5-N4knjvmZgra1/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1zadr06Ub_4er1V7mUzFXhLVw2aK7ONLf/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Forestry",
+    year: "2023-2024",
+    tournament: "Mason Tryouts",
+    link: "https://drive.google.com/file/d/1uZuYqOEXPg8kz-SvnGBMHDbLf_qMiiOK/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/12qU0JAuUA6OmSrIL1tUEaY0yLfjoy5Mm/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Disease Detectives",
+    year: "2023-2024",
+    tournament: "Mason Tryouts",
+    link: "https://drive.google.com/file/d/14khn3nu633H6Il4WRAZvFOG2xkK4pgpO/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1OA4_LonbIDSG5Ue3vbIkv3O3mV09eCBa/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Astronomy",
+    year: "2023-2024",
+    tournament: "Mason Tryouts",
+    link: "https://drive.google.com/file/d/1rS79KgAjlKsjn_XddLjOAMRQuDmsPYCT/view?usp=drive_link",
+
+    key: "https://drive.google.com/file/d/1hor0bxmmNCvezwynWLiUypA3IpZqIJFQ/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Geologic Mapping",
+    year: "2023-2024",
+    tournament: "Mason Tryouts",
+    link: "https://drive.google.com/file/d/1Rci-ISwhV-aHu9IfCss360LKyprVhZo2/view?usp=drive_link",
+
+    key: "https://drive.google.com/file/d/1Xc93fZ73PeskBjh3vJ_ZsKwflj1UBP3-/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Fermi Questions",
+    year: "2023-2024",
+    tournament: "Mason Tryouts",
+    link: "https://drive.google.com/file/d/1D4LUdtuOrjmiP3VbsqZkzMk2unFzQFwu/view?usp=drive_link",
+
+    key: "https://drive.google.com/file/d/1fLJlfDsfAMI8ZaJR9IHLSVa0ZrUyEHnS/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Codebusters",
+    year: "2023-2024",
+    tournament: "Mason Tryouts",
+    link: "https://drive.google.com/file/d/1gFknRz-DmY-Jhtu7qOi0XKUQu1qAh0ZF/view?usp=drive_link",
+
+    key: "https://drive.google.com/file/d/12Oyxyg6-ufhFjgxvEIG6cwLu53Ixmk6y/view?usp=drive_link",
+  },
+
+  {
+    type: "test",
+    event: "Anatomy and Physiology",
+    year: "2023-2024",
+    tournament: "Mason Tryouts",
+    link: "https://drive.google.com/file/d/1Dc6Eud2Wmb8X_H8i58caxv9sjdJJY39J/view?usp=drive_link",
+    key: "https://drive.google.com/file/d/1LZnxr4QHqOlrXLuk8NFIEfGJ8QQ-YCxP/view?usp=drive_link",
   },
 ].map((e) => {
   return { ...e, internal_name: e.event.toLowerCase().replace(/\W/g, "") };
