@@ -7,6 +7,9 @@ export default function HomePage(props) {
         </h1>
       </div>
       <div className="text-white/15">HI!~ Jonathan</div>
+      <div className="text-white/70 text-[32px]">
+        Thanks for the help, Aarushi!
+      </div>
     </div>
   );
 }
