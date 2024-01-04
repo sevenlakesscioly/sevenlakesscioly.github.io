@@ -54,6 +54,12 @@ export default function OtherPage(props) {
             r2dev2.github.io/cryptoduel
           </Link>
         </li>
+        <li>
+          Code patristos (Ashley Yang + Aidan Lai):{" "}
+          <Link href="https://docs.google.com/document/d/1UhZjoFvXGk1eWGQ0VZa7cEE_dAjLU0XKDfYq8EvDiFI/edit">
+            docs
+          </Link>
+        </li>
       </ul>
     </div>
   );
