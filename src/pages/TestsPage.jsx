@@ -93,7 +93,7 @@ export default function TestsPage(props) {
   }, [filterTourney, filterYear, scoresheet, selectedEvents]);
 
   return (
-    <div className="min-h-[200vh] w-screen bg-sky-950 pt-10">
+    <div className="min-h-[200vh] w-full bg-sky-950 pt-10">
       <div className="w-full bg-blue-500/35 flex flex-row justify-center align-middle items-center">
         <h2 className="font-bold text-[54px] text-white p-10">Tests</h2>
       </div>
