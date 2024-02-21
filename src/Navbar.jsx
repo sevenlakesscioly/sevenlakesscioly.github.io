@@ -9,6 +9,10 @@ const pages = [
     url: "/",
   },
   {
+    name: "Travel",
+    url: "/travel",
+  },
+  {
     name: "Tests",
     url: "/tests",
   },

@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import TestsPage from "./pages/TestsPage";
 import OtherPage from "./pages/OtherPage";
+import Travel from "./pages/Travel";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/travel" element={<Travel />} />
         <Route exact path="/contact" element={<ContactPage />} />
         <Route exact path="/notes" element={<ContactPage />} />
         <Route exact path="/tests" element={<TestsPage />} />
